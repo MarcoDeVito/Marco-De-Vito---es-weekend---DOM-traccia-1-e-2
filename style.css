@@ -1,0 +1,20 @@
+.grassetto {
+    font-weight: bolder;
+}
+#wrapper{
+    min-height: 16rem;
+}
+
+article {
+    width: 32%;
+    min-height: 300px;
+    margin-left: 1%;
+    margin-top: 6%;
+    padding: 1rem;
+    border-radius: 15px;
+
+}
+#zonaArticoli{
+    display: flex;
+    flex-wrap: wrap;
+}

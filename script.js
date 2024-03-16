@@ -50,7 +50,7 @@ btn4.addEventListener('click', () => {
     if (titolo.value!==""&&paragrafo.value!=="") {
         articolo.innerHTML = `<h2>${titolo.value}</h2>
         <p>${paragrafo.value}</p>
-        <p>Pubblicato il ${formatDate}</p>`;
+        <p class="data">Pubblicato il ${formatDate}</p>`;
         console.log(articolo);
         wrapper.appendChild(articolo);
         titolo.value="";

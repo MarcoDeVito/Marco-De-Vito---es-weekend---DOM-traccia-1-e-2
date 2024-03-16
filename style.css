@@ -12,9 +12,17 @@ article {
     margin-top: 6%;
     padding: 1rem;
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+
 
 }
 #zonaArticoli{
     display: flex;
     flex-wrap: wrap;
+}
+
+.data{
+    align-self: flex-end;
+    margin-top: auto;
 }
